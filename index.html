@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Usando variáveis</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    const nome = prompt("digite seu nome");
+    const idade = prompt("bem vindo(a) " + nome + ", qual sua idade?");
+    const linguagem = prompt("Então " + nome + " de " + idade + " anos " + " Qual linguagem está aprendendo? ");
+    const msg = "Olá " + nome + " de " + idade + " anos " + "que está aprendendo " + linguagem;
+    alert(msg);
+    const condicao = prompt("Você gosta de estudar" + linguagem + " ? " + "Responda 1 para sim e 2 para não.");
+    if(condicao == 1) {
+        alert("Muito bom! Continue estudando e você terá muito sucesso.");
+
+    };
+    if(condicao == 2) {
+        alert("Ahh que pena... Já tentou aprender outras linguagens?")
+    };
+    
+</script>
